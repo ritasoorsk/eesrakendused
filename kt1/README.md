@@ -1,21 +1,45 @@
-MIT License
+# 1. kodutöö – Lauakell
 
-Copyright (c) 2018 Rita Soorsk
+Autor: Rita Soorsk
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Funktsionaalsus:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+	
+	
+Ekraanipilt rakendusest:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+![Ekraanipilt rakendusest]( "Ekraanipilt rakendusest")
+
+## Tähtpäev 18.02.2018 23:59
+
+Kujunda kellanäide vastavalt maitsele või kindlale teemale, mahutades kella täisekraanile, et saaks kasutada lauakella või ekraanisäästja asemel. Selleks, et see sobiks paljudele ekraanidele, kasuta kujunduse loomisel protsendilisi väärtusi (nt width: 100%; ) või nt võimalda kella suurust kasutajal muuta.
+
+## Nõuded
+
+1. Veebirakendus töötab. Näitab kella, kuupäeva ja nädalapäeva.
+2. Vastavalt kasutaja tegevusele on võimalik muuta **kolme** lauakella atribuuti muuta (nt suurus, värv, asukoht vms)
+3. Kell on originaalne ning kasutajaliides on maitsekalt kujundatud
+4. Autori ees- ja perenimi on lehel välja toodud
+5. Lehel on viide rakenduse repositooriumile
+6. Kood on vormistatud vastavalt stiilijuhendile
+7. `README.md` failis on välja toodud autori nimi, ekraanipilt rakendusest ja kirjeldatud funktsionaalsus
+
+## Mõned ideed võimalikeks täiendusteks (lihtsalt, et mõte hakkaks jooksma)
+
+* Vahetuda võivad taustapildid, taustal võib mängida muusika
+* Taustale klikkides muudetakse kella taustaväri
+* Kellale klõpsides muudetakse numbrite värvi või numbrite suurust;
+* Iga numbri suurust saab eraldi muuta
+* Nooleklahvidega saab kella ekraanil liigutada
+* Küsi enne kella näitamise alustamist kasutajalt tema lemmikvärv ja tee sellest lähtudes midagi
+* Muuda kella ja tausta värvi vastavalt ajale (päev/öö)
+* Kella suurus ja asukoht sõltuvad hiire asukohast ekraanil
+* Äkki võiks tegu olla hoopis analoogkellaga
+* Kirjatüüpi saab ka muuta, [google.com/fonts](https://www.google.com/fonts)
+* Kasutaja saab lisada või kasutajaöe näidatakse mitu kellaaega erinevatest maailma kohtadest
+
+## Abimaterjal
+
+* Sündmuste loetelu [HTML DOM Events](http://www.w3schools.com/jsref/dom_obj_event.asp)
+* Ajal põhinevad sündmused [JavaScript Timing Events](http://www.w3schools.com/js/js_timing.asp)
+* CSSi muutmine [HTML DOM Style Object](http://www.w3schools.com/jsref/dom_obj_style.asp)
